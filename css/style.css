@@ -68,6 +68,12 @@ header a{
   transform: translate(0, 30%);
 }
 
+#showcase-text-mobile{
+  width: 100%;
+  text-align: center;
+  display: none;
+}
+
 #showcase h1{
   font-family: 'Sanchez', serif;
   font-size: 70px;
@@ -219,4 +225,141 @@ footer a{
 
 #footer-copyright a{
     text-decoration: underline;
+}
+
+/* Firefox specific rule */
+/* Firefox cannot render "Cinzel" bold, this renders the font as normal to prevent issues */
+@-moz-document url-prefix() {
+  #header-navi-title{
+    font-weight: normal;
+  }
+
+  #links h1{
+    font-weight: normal;
+  }
+}
+
+@media (max-width: 1245px) {
+  #showcase-text{
+    transform: translate(0, 0);
+  }
+}
+
+@media (max-width: 1170px) {
+  #showcase-text{
+    transform: translate(0, 30%);
+  }
+
+  #showcase h1{
+    font-size: 50px;
+
+  }
+}
+
+@media (max-width: 946px) {
+  #showcase-text{
+    transform: translate(0, 0);
+  }
+}
+
+@media (max-width: 909px) {
+  header{
+    padding: 0 0 10px 0;
+  }
+
+  header ul{
+    padding: 0px 10px 10px 10px;
+  }
+
+  header li{
+    float: left;
+    display: inline;
+    padding: 5px 10px 5px 10px;
+
+  }
+
+  #header-navi{
+    width: 75%;
+  }
+
+  #header-navi-title{
+    font-size: 30px;
+    padding: 10px 10px 10px 20px;
+  }
+
+  #header-logo{
+    width: 25%;
+    float: left;
+    overflow: hidden;
+  }
+
+  #showcase-image{
+    width: 100%;
+    float: right;
+  }
+
+  #showcase-text{
+    display: none;
+  }
+
+  #showcase-text-mobile{
+    display: block;
+  }
+
+  #intro{
+    padding: 50px 10% 50px 10%;
+  }
+
+  #links-image{
+    padding: 0 6% 0 6%;
+  }
+
+  #links-text{
+
+    padding: 0 0 0 0;
+  }
+
+  #links-text-center{
+    padding: 0 8% 0 8%;
+  }
+}
+
+@media (max-width: 634px) {
+  #showcase h1{
+    font-size: 40px;
+    text-shadow:
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+      1px 1px 0 #000;
+  }
+
+  #president{
+    height: 75vh;
+  }
+
+  #president-message{
+    width: 100%
+  }
+
+  #links-text{
+    font-size: 10px;
+    font-weight: 900;
+  }
+
+  #links-text-center{
+    font-size: 10px;
+    font-weight: 900;
+  }
+}
+
+@media (max-width: 500px){
+  #header-logo img{
+    padding: 15px 0 0 0;
+    width: 110px;
+    float: left;
+  }
+
+  #links-text-center{
+    padding: 0 5% 0 5%;
+  }
 }
