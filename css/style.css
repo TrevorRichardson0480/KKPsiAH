@@ -100,14 +100,23 @@ header a{
 
 #president{
   background: #263b98;
-  height: 50vh;
   padding:20px 20px 20px 0;
+  height: 400px
+}
+
+#president img{
+  width: 80%;
+  transform: translate(0, 10%);
+  max-width: 300px;
+  float: right;
 }
 
 #president-message{
   color:#ffffff;
   width:60%;
-  padding:20px 20px 20px 40px;
+  padding:20px 10% 20px 40px;
+  float: right;
+  overflow: hidden;
 }
 
 #president-message h1{
@@ -115,14 +124,8 @@ header a{
 }
 
 #president-image{
-  transform: translate(0, -100%);
-  width:30%;
   float: right;
-}
-
-#president-image img{
-  width:100%;
-  max-width:500px;
+  width: 40%
 }
 
 #links {
@@ -260,6 +263,14 @@ footer a{
   #showcase-text{
     transform: translate(0, 0);
   }
+
+  #president img{
+      margin: 0 0 0 0;
+  }
+
+  #president-image{
+      margin: 0 0 0 0;
+  }
 }
 
 @media (max-width: 909px) {
@@ -296,6 +307,7 @@ footer a{
   #showcase-image{
     width: 100%;
     float: right;
+    border-bottom: #263b98 5px solid;
   }
 
   #showcase-text{
@@ -324,6 +336,25 @@ footer a{
   }
 }
 
+@media (max-width: 800px) {
+  #president{
+    height: 700px;
+  }
+
+  #president-message{
+    width: 100%
+  }
+
+  #president-image{
+    width: 100%;
+    text-align: center;
+  }
+
+  #president img{
+    float: none;
+  }
+}
+
 @media (max-width: 634px) {
   #showcase h1{
     font-size: 40px;
@@ -334,7 +365,7 @@ footer a{
   }
 
   #president{
-    height: 75vh;
+    height: 800px;
   }
 
   #president-message{
@@ -357,6 +388,10 @@ footer a{
     padding: 15px 0 0 0;
     width: 110px;
     float: left;
+  }
+
+  #president{
+    height: 850px;
   }
 
   #links-text-center{
