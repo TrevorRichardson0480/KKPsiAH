@@ -72,6 +72,11 @@
   font-family: 'Cinzel', serif;
 }
 
+#president-message h2{
+  font-style: italic;
+  font-size: 20px;
+}
+
 #president-image{
   float: right;
   width: 40%
@@ -203,9 +208,9 @@
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 950px) {
   #president{
-    height: 700px;
+    height: 720px;
   }
 
   #president-message{
@@ -250,7 +255,7 @@
   }
 }
 
-@media (max-width: 500px){
+@media (max-width: 530px){
   #president{
     height: 850px;
   }
