@@ -1,0 +1,95 @@
+#intro{
+  padding: 20px 25% 20px 25%;
+}
+
+#intro h1{
+  font-family: 'Cinzel', serif;
+  font-weight: 550;
+}
+
+#intro p{
+  font-size: 18px;
+}
+
+#officer-row-title{
+  padding:0px 15% 40px 15%;
+  background: #263b98;
+  color: #d1d5d5;
+}
+
+#officer-row-title h1{
+  font-family: 'Cinzel', serif;
+  font-weight: 550;
+  transform: translate(0, 20px);
+}
+
+#officer-row{
+  padding:0px 15% 40px 15%;
+  display: flex;
+  background: #263b98;
+  color: #d1d5d5;
+}
+
+#officer-row-title-2{
+  padding:0px 15% 40px 15%;
+  display: flex;
+  background-color: #ffffff;
+}
+
+#officer-row-title-2 h1{
+  font-family: 'Cinzel', serif;
+  font-weight: 550;
+  transform: translate(0, 20px);
+}
+
+#officer-row-2{
+  padding:0px 15% 40px 15%;
+  display: flex;
+  background-color: #ffffff;
+}
+
+#officer-row-2 h1{
+  font-family: 'Cinzel', serif;
+  font-weight: 550;
+  transform: translate(0, 20px);
+}
+
+#officer-card{
+  width: 50%;
+  padding: 0px 20px 0px 20px;
+}
+
+#officer-card .card{
+  width: 100%;
+  color: #000000;
+}
+
+@media (max-width: 928px){
+  #intro{
+    padding: 20px 12.5% 20px 12.5%;
+  }
+
+  #officer-row-title{
+    padding-bottom: 20px;
+  }
+
+  #officer-row{
+    display: block;
+    padding: 0;
+  }
+
+  #officer-row-title-2{
+    padding-bottom: 20px;
+  }
+
+  #officer-row-2{
+    display: block;
+    padding: 0;
+  }
+
+  #officer-card{
+    margin: auto;
+    width: 75%;
+    padding: 20px 0 20px 0;
+  }
+}
