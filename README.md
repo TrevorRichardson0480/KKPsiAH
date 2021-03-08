@@ -1,2 +1,3 @@
-# Kappa-Kappa-Psi-Website
-Kappa Kappa Psi Website for Apha Eta Chapter, University of Florida
+# website
+Alpha Eta Chapter of Kappa Kappa Psi website
+https://kkpsiah.github.io/website/
